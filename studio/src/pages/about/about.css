@@ -1,0 +1,36 @@
+/* About*/
+
+.left-about {
+    padding-top: 20px;
+    text-align: left;
+    color: #fff;
+    font-family: futura-pt, sans-serif;
+    font-size: 20px;
+  }
+  
+  h1.left-about {
+    border-bottom: 0.5px solid #fff;
+    padding-bottom: 20px;
+    margin-bottom: 70px;
+    
+  }
+#border-bottom {
+    border-bottom: 1px solid #fff;
+    margin-bottom: 50px;
+}
+
+.aboutspacing {
+    padding-bottom: 50px;
+    font-size: 20px;
+} 
+
+.p25 {
+    padding-bottom: 25px;
+}
+
+@media only screen and (max-width: 480px) { 
+.about {
+    margin-top: 80px;
+}
+    
+}

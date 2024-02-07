@@ -1,0 +1,219 @@
+.App {
+  text-align: center;
+  background-color: #000;
+}
+.row {
+  background-color: #000;
+}
+
+h2 { font-family: futura-pt, sans-serif;}
+nav {
+  position: static;
+}
+
+.nav-link {
+  font-size: 20px !important;
+}
+
+.video-mask-container {
+  position: relative;
+  width: 80vw; /* Your video width */
+}
+
+.video-mask-container-footer {
+  position: relative;
+  width: 40vw; /* Your video width */
+  height: 45vh; /* Your video height */
+}
+
+.video {
+  width: 100%;
+
+  object-fit: fill; /* Cover the container */
+}
+.videofooter {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Cover the container */
+}
+
+/* Apply the mask to the video using CSS */
+.video {
+  width: 100%;
+  object-fit:cover;
+  
+  /* Reference your SVG mask file here */
+  -webkit-mask: url('./DIGITAL_MATTER2.svg') no-repeat center / contain;
+  mask: url('./DIGITAL_MATTER2.svg') no-repeat center / contain;
+}
+
+.left-footer {
+  text-align: left;
+  color: #fff;
+  font-family: futura-pt, sans-serif;
+  font-size: 20px;
+  padding: 10px 0px 50px 0px;
+}
+
+.footer {
+  text-align: left;
+  font-family: futura-pt, sans-serif;
+  color: #fff;
+}
+
+.footer a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+
+
+h2 {
+  color: #fff !important;
+  font-family: futura-pt, sans-serif;
+  text-align: left;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+.intro
+{
+  font-family: futura-pt, sans-serif;
+font-weight: 400;
+font-style: normal;
+color: #fff;
+padding-top: 250px;
+position: absolute;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #000;
+}
+
+.App-header h1 {
+  font-family: futura-pt, sans-serif;
+font-weight: 800;
+font-style: normal;
+font-size: 100pt;
+}
+
+nav {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  /* justify-content: space-between; */
+  padding: 20px;
+  font-family: futura-pt, sans-serif;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.ContactInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.ContactItem {
+  font-size: 24px; /* Adjust the size as needed */
+  margin: 10px 0;
+}
+
+.ContactItem a {
+  color: #000; /* Maintain the white text for links */
+  text-decoration: none; /* No underlines on the links */
+}
+
+.ContactItem a:hover,
+.ContactItem a:focus {
+  text-decoration: underline; /* Underline on hover/focus for accessibility */
+} 
+
+.parallax {
+  /* Adjust this to suit your needs; using a large image helps */
+  height: 100vh; /* Full height */
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 1px;
+}
+.parallax-content {
+  position: relative;
+  z-index: 2;
+}
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+
+.App-header {
+  background-color: #000;
+  min-height: 50vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+
+@media only screen and (max-width: 480px) {
+
+  .navbar>.container-fluid
+  {
+    justify-content: center !important;
+  }
+
+  .video {
+    margin: 40px 0px 40px 0px;
+    width: 80%;
+    object-fit:cover;
+    /* Reference your SVG mask file here */
+    -webkit-mask: url('./DIGITAL MATTER-mobile.svg') no-repeat center / contain;
+    mask: url('./DIGITAL MATTER-mobile.svg') no-repeat center / contain;
+  }
+
+  .footer-logo {
+    width: 100% !important;
+  }
+
+  .video-mask-container-footer{
+    width: 45vh !important;
+  }
+
+  .intro 
+  {
+    padding-top: 150px !important;
+    margin: 15px;
+  }
+
+.App-header {
+  min-height: 20vh !important;
+}
+
+  .navbar-nav {
+  flex-direction: row !important;
+}
+  .nav-link {
+     margin: 0px auto;
+  }
+
+}
