@@ -43,8 +43,8 @@ nav {
   object-fit:cover;
   
   /* Reference your SVG mask file here */
-  -webkit-mask: url('./DIGITAL MATTER-mobile.svg') no-repeat center / contain;
-  mask: url('./DIGITAL MATTER-mobile.svg') no-repeat center / contain;
+  -webkit-mask: url('./DIGITAL_MATTER2.svg') no-repeat center / contain;
+  mask: url('./DIGITAL_MATTER2.svg') no-repeat center / contain;
 }
 
 .left-footer {
