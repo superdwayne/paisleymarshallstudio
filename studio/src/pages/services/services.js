@@ -7,7 +7,7 @@ function Services() {
     <Container  >
   
         
-  <Row className="w-100 align-items-center">
+  <Row className="w-100 align-items-left">
  
 <div>
 <h1 className='left-about'>What we do</h1>
@@ -17,7 +17,7 @@ function Services() {
 
 
 <Row >
-<Col md={4}>
+<Col md={4}  >
 <ul>
     <li>Generative Visuals</li>
     <li>Data Visualization</li>
