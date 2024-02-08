@@ -70,7 +70,7 @@ function App() {
   state: { scrollTo: 'ourStory' } // Indicating which section to scroll to
 }}>About</Nav.Link>
                 <Nav.Link  as={Link} to="/services" >Services</Nav.Link>
-                {isMobile ? <Nav.Link herf="/contact">Contact</Nav.Link>  : null  }
+                {isMobile ? <Nav.Link href="mailto:office@digitalmatter.studio" >Contact</Nav.Link>  : null  }
               </Nav>
             </Col>
             <Col xxs={12} md={8} xl={8} xxl={8}  className="d-flex justify-content-center">
@@ -80,7 +80,7 @@ function App() {
             <Col xs={12} md={2}  xl={2} xxl={2}  className="d-flex justify-content-end">
               <Nav>
                 
-                {isMobile ? null : <Nav.Link herf="/contact">Contact</Nav.Link>  } 
+                {isMobile ? null : <Nav.Link href="mailto:office@digitalmatter.studio">Contact</Nav.Link>  } 
               </Nav>
             </Col>
           </Row>
