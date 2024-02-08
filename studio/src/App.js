@@ -127,17 +127,17 @@ function App() {
                   <div className='footer'>
                     <span>
                     <h1>EMAIL</h1>
-                    <p><a href='mailto:office@digitalmatter.studio'>office@digitalmatter.studio </a></p>  
+                    <h2><a href='mailto:office@digitalmatter.studio'>office@digitalmatter.studio </a></h2>  
                     </span>
 
                     <span>
                     <h1>INSTAGRAM</h1>
-                    <p><a href='https://www.instagram.com/digitalmatter.studio/'>@digitalmatter.studio </a></p>  
+                    <h2><a href='https://www.instagram.com/digitalmatter.studio/'>@digitalmatter.studio </a></h2>  
                     </span>
 
                     <span>
                     <h1>LINKED-IN</h1>
-                    <p><a href='https://www.linkedin.com/company/digital-matter-studio/'>@digitalmatter.studio</a></p>  
+                    <h2><a href='https://www.linkedin.com/company/digital-matter-studio/'>@digitalmatter.studio</a></h2>  
                     </span>
 
                   </div>
