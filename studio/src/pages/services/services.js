@@ -23,7 +23,7 @@ function Services() {
     <li>Data Visualization</li>
     <li>3D Visuals</li>
     <li>Realtime 3D</li>
-    <li>AI</li>
+    <li>AI chatbots</li>
     <li>Digital Fashion</li>
 </ul>
 
@@ -46,7 +46,7 @@ function Services() {
     <li>Metaverse Experiences</li>
     <li>Retail Installations</li>
     <li>Retail Activations</li>
-    <li>Web3</li>
+    <li>Creative Technology consultations</li>
     <li>Front-End & Back-End</li>
 </ul>
   </Col>
