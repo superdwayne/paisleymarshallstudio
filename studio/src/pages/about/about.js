@@ -10,15 +10,15 @@ function About(props) {
     <Container>
   
         
-          <Row className="w-100 align-items-center" >
+          <Row className="w-100 align-items-center" id='border-bottom' >
 
          
-        <div>
+        <div style={{width: '40vw', margin: '0 auto'}}  className='m-100' >
         
         
-        <img src={Dpm} style={{width: '30vw'}} />
+        <img src={Dpm} style={{width: '40vw'}}  className='m-100' />
 
-        <h1 className='left-about'>Founder - Creative Technology Director</h1>
+        <h1 className='left-about'>Founder - Dwayne Paisley-Marshall</h1>
           </div>
         </Row>
 

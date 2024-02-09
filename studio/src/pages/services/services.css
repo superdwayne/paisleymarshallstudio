@@ -9,3 +9,15 @@ ul li
     color: #fff;
     text-align: left;
 }
+
+h1.left-services{
+    border-bottom: 0.5px solid #fff;
+    padding-bottom: 20px;
+    margin-bottom: 70px;
+    padding-top: 20px;
+    text-align: left;
+    color: #fff;
+    font-family: futura-pt, sans-serif;
+    font-size: 20px;
+    
+  }

@@ -10,7 +10,7 @@ function Services() {
   <Row className="w-100 align-items-left">
  
 <div>
-<h1 className='left-about'>What we do</h1>
+<h1 className='left-services'>What we do</h1>
   </div>
 </Row>
 
@@ -55,7 +55,7 @@ function Services() {
 <Row className="w-100 align-items-center">
  
  <div>
- <h1 className='left-about'>How do we do it</h1>
+ <h1 className='left-services'>How do we do it</h1>
    </div>
  </Row>
 
