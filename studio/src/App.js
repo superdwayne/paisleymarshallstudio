@@ -74,7 +74,7 @@ function App() {
               </Nav>
             </Col>
             <Col xxs={12} md={8} xl={8} xxl={8}  className="d-flex justify-content-center">
-            <Nav.Link  as={Link} to="/" >Independent Creative technology studio</Nav.Link>
+            <Nav.Link  as={Link} to="/" >Independent Creative Technology studio</Nav.Link>
              
             </Col>
             <Col xs={12} md={2}  xl={2} xxl={2}  className="d-flex justify-content-end">
